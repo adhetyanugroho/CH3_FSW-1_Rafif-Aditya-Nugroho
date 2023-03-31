@@ -1,0 +1,346 @@
+body {
+  font-family: Helvetica;
+  /* overflow-x: hidden; */
+  word-wrap: break-word;
+}
+
+section {
+  padding-top: 100px;
+  scroll-margin-top: 100px;
+}
+
+/* Navbar CSS */
+
+.navbar {
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #f1f3ff;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 32px;
+}
+
+.btn-burger-menu {
+  border: none;
+  background-color: transparent;
+}
+.btn-custom {
+  padding: 8px 12px;
+  font-weight: 700;
+  background-color: #5cb85f;
+  color: white;
+  border: 0;
+  margin-right: 100px;
+}
+
+#sidebar-menu {
+  display: none;
+}
+#offcanvasRight {
+  width: 50%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list {
+  padding-top: 10px;
+}
+.link-no-decoration {
+  text-decoration: none;
+}
+.gap-32 {
+  gap: 32px;
+}
+/* Hero CSS */
+
+.container-fluid-hero{
+  padding-top: 80px;
+}
+.hero-kiri {
+  padding-top: 100px;
+  padding-left: 136px;
+}
+.hero-kanan {
+  padding-top: 40px;
+}
+.heading-hero {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.subheading-hero {
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 130px;
+}
+.hero-img {
+  right: 0;
+  bottom: 0;
+}
+.container-fluid-hero {
+  background-color: #f1f3ff;
+}
+
+.btn-hero {
+  padding-left: 105px;
+  padding-top: 5px;
+}
+
+.btn-custom-2 {
+  padding: 8px 12px;
+  font-weight: 700;
+  background-color: #5cb85f;
+  color: white;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.img-service {
+  padding-left: 50px;
+  padding-bottom: 32px;
+}
+
+/* Service CSS */
+.heading-service {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-right: 70px;
+}
+
+.content-service {
+  padding-top: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 100px;
+}
+
+.satu {
+  padding-right: 15px;
+  padding-bottom: 16px;
+}
+
+/* Why Us Section */
+
+.heading-why {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content-why {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.card {
+  height: 224px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.icon-why {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 24px;
+}
+
+/* Testimonial CSS */
+.heading-testi {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.heading-testimonial {
+  text-align: center;
+}
+
+.item {
+  overflow: auto;
+}
+
+/* Sewa Mobil CSS */
+
+.card-body-sewa {
+  padding: 5em 0em;
+  background-color: #0d28a6;
+  border-radius: 13px;
+}
+
+.heading-sewa {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 150%;
+  color: white;
+}
+
+.content-sewa {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  padding-right: 400px;
+  padding-left: 400px;
+}
+
+.btn-sewa {
+  padding: 8px 12px;
+  width: fit-content;
+  font-weight: 700;
+  background-color: #5cb85f;
+  color: white;
+  border: 0;
+  margin-top: 52px;
+}
+
+/* Asked Question CSS */
+.heading-asked {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content-asked {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.accordion-button {
+  font-weight: 300;
+  font-size: 14px;
+}
+.accordion-content {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* Footer CSS */
+.alamat {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+
+.menu {
+  text-decoration: none;
+  padding-bottom: 16px;
+}
+.connect {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+.list-unstyled > li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;  
+}
+
+.side {
+  padding-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  font-weight: 400;
+}
+
+a:hover {
+  font-style: black;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+
+  #sidebar-menu {
+    display: block;
+  }
+
+  .hero-kiri {
+    padding-top: 32px;
+    padding-left: 20px;
+  }
+  .hero-kanan {
+    padding-top: 24px;
+  }
+
+  .heading-why {
+    text-align: center;
+  }
+
+  .content-why {
+    text-align: center;
+  }
+
+  .subheading-hero {
+    padding-right: 20px;
+    padding-left: 5px;
+  }
+
+  .heading-service {
+    padding-right: 10px;
+  }
+
+  .content-service {
+    padding-right: 10px;
+  }
+
+  .heading-sewa {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .content-sewa {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .img-service {
+    padding-left: 0px;
+  }
+}

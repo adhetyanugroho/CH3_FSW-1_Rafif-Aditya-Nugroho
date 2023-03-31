@@ -1,0 +1,315 @@
+body {
+  font-family: Helvetica;
+  /* overflow-x: hidden; */
+  word-wrap: break-word;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+
+/* Navbar CSS */
+
+.navbar {
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #f1f3ff;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 32px;
+}
+
+.btn-burger-menu {
+  border: none;
+  background-color: transparent;
+}
+.btn-custom {
+  padding: 8px 12px;
+  font-weight: 700;
+  background-color: #5cb85f;
+  color: white;
+  border: 0;
+  margin-right: 100px;
+}
+
+#sidebar-menu {
+  display: none;
+}
+#offcanvasRight {
+  width: 50%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list {
+  padding-top: 10px;
+}
+.link-no-decoration {
+  text-decoration: none;
+}
+.gap-32 {
+  gap: 32px;
+}
+/* Hero CSS */
+
+.container-fluid-hero{
+  padding-top: 80px;
+  background-color: #f1f3ff;
+}
+.hero-kiri {
+  padding-top: 100px;
+  padding-left: 136px;
+}
+.hero-kanan {
+  padding-top: 40px;
+}
+.heading-hero {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.subheading-hero {
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 130px;
+}
+.hero-img {
+  right: 0;
+  bottom: 0;
+}
+
+.btn-hero {
+  padding-left: 105px;
+  padding-top: 5px;
+}
+
+.btn-custom-2 {
+  padding: 8px 12px;
+  font-weight: 700;
+  background-color: #5cb85f;
+  color: white;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.img-service {
+  padding-left: 50px;
+  padding-bottom: 32px;
+}
+
+
+/* Sewa Mobil */
+.sewa-mobil {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+.cari-mobil {
+  width: 73%;
+  padding: 24px;
+  height: fit-content;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: -50px;
+}
+
+.input-group {
+  width: 21%;
+}
+
+.input-group > .form-control,
+.input-group > .form-select {
+  border-radius: 3px !important;
+  position: relative;
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #3c3c3c;
+}
+
+.item {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.form-control:hover,
+.form-control:focus,
+.form-select:hover,
+.form-select:focus {
+  border: 1px solid #5cb85f;
+  box-shadow: none;
+}
+
+.button-search {
+  width: 13%;
+  background: #5cb85f;
+  border-radius: 3px;
+  border-style: none;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  height: 6vh;
+  align-self: end;
+}
+
+.result-container {
+  text-align: -webkit-center;
+}
+.result {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-left: 3%;
+  justify-content: space-around;
+  flex-flow: wrap;
+  text-align: left;
+  color: black;
+}
+
+/* end sewa-mobil */
+
+/* Footer CSS */
+
+.alamat {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+
+.menu {
+  text-decoration: none;
+  padding-bottom: 16px;
+}
+.connect {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+.list-unstyled > li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.side {
+  padding-bottom: 16px;
+}
+.satu {
+  padding-right: 15px;
+  padding-bottom: 16px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  font-weight: 400;
+}
+
+a:hover {
+  font-style: black;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+
+  #sidebar-menu {
+    display: block;
+  }
+
+  .hero-kiri {
+    padding-top: 32px;
+    padding-left: 20px;
+  }
+  .hero-kanan {
+    padding-top: 24px;
+  }
+
+  .heading-why {
+    text-align: center;
+  }
+
+  .content-why {
+    text-align: center;
+  }
+
+  .subheading-hero {
+    padding-right: 20px;
+    padding-left: 5px;
+  }
+
+  .heading-service {
+    padding-right: 10px;
+  }
+
+  .content-service {
+    padding-right: 10px;
+  }
+
+  .heading-sewa {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .content-sewa {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .img-service {
+    padding-left: 0px;
+  }
+
+.cari-mobil {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-group {
+    margin-bottom: 10px;
+    width:100%;
+  }
+  .btn.button-search {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+ section {
+    padding-bottom: 350px;
+}
+}
+
+
