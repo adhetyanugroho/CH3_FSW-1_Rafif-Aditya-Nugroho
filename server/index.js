@@ -18,5 +18,5 @@ app.get('/cars', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("Server sudah berjalan..")
+    console.log("Server sudah berjalan di http://127.0.0.1:%d", port)
 })
