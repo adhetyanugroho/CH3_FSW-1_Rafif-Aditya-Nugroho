@@ -14,25 +14,25 @@
       crossorigin="anonymous"
     />
 
-    <!-- Custom CSS -->
-   <!-- <link rel="stylesheet" href="css/style.css"> -->
    <link rel="stylesheet" href="css/sewa-mobil.css">
 
   </head>
 
   <body> 
+    <button id="load-btn">Load</button>
+    <button id="clear-btn">Clear</button>
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="http://127.0.0.1:8000/">
           <img src="images/logo.png" alt="logo.png" />
         </a>
 
         <ul class="flex-row gap-32 list-unstyled nav-list pt-2">
-          <li class="list"><a href="#service">Our Services</a></li>
-          <li class="list"><a href="#why-us">Why Us</a></li>
-          <li class="list"><a href="#testimonial">Testimonial</a></li>
-          <li class="list"><a href="#Asked-Question">FAQ</a></li>
+          <li class="satu"><a href="#service">Our Services</a></li>
+          <li class="satu"><a href="#why-us">Why Us</a></li>
+          <li class="satu"><a href="#testimonial">Testimonial</a></li>
+          <li class="satu"><a href="#Asked-Question">FAQ</a></li>
           <li>
             <button class="btn-custom btn-success" type="button" href="#">
               Register
@@ -75,10 +75,10 @@
       </div>
       <div class="offcanvas-body">
         <ul class="list-unstyled">
-          <li><a href="#service">Our Services</a></li>
-          <li><a href="#why-us">Why Us</a></li>
-          <li><a href="#testimonial">Testimonial</a></li>
-          <li><a href="#Asked-Question">FAQ</a></li>
+          <li class="satu"><a href="#service">Our Services</a></li>
+          <li class="satu"><a href="#why-us">Why Us</a></li>
+          <li class="satu"><a href="#testimonial">Testimonial</a></li>
+          <li class="satu"><a href="#Asked-Question">FAQ</a></li>
           <li>
             <button class="btn-custom btn-success" type="button" href="#">
               Register
@@ -110,6 +110,7 @@
                 src="images/img_car.png"
                 class="img-fluid"
                 alt="img_car.png"
+                width="100%"
               />
             </div>
           </div>
@@ -125,7 +126,7 @@
         <div class="cari-mobil">
           <div class="input-group d-flex flex-column pe-2">
             <p>Tipe Driver</p>
-            <select class="form-select" id="tipe-driver" required>
+            <select class="form-select" id="InputDriver" required>
               <option class="item" value="" selected hidden>
                 Pilih Tipe Driver
               </option>
@@ -137,11 +138,11 @@
           </div>
           <div class="input-group d-flex flex-column pe-2">
             <p>Tanggal</p>
-            <input type="date" class="form-control" id="date" required />
+            <input type="date" class="form-control" id="inputDate" required />
           </div>
           <div class="input-group d-flex flex-column pe-2">
             <p>Waktu Jemput/Ambil</p>
-            <input type="time" id="time" class="form-control" required />
+            <input type="time" id="inputTime" class="form-control" required />
           </div>
           <div class="input-group d-flex flex-column">
             <p>Jumlah Penumpang (Opsional)</p>
@@ -149,19 +150,30 @@
               <input
                 type="number"
                 class="form-control item"
-                id="passanger"
+                id="inputCapacity"
                 style="background-color: #fff"
               />
             </div>
           </div>
 
-          <button type="submit" class="btn btn-success button-search" id="load-btn">
+          <button type="submit" class="btn btn-success button-search" id="search-btn">
             Cari Mobil
           </button>
         </div>
       </section>
 
     <!-- End of Sewa Mobil -->
+<div class="container hasil-pencarian">
+<div class="hasil d-flex" id="cars-container">
+  
+
+
+</div>
+</div>
+</div>
+
+
+
 
     <!-- Footer -->
     <section id="footer">
@@ -212,6 +224,11 @@
     </section>
     <!-- End of Footer -->
 
+    <!-- Example Script -->
+    <script type="text/javascript" src="./scripts/binar.js"></script>
+    <script type="text/javascript" src="./scripts/app.example.js"></script>
+    <script type="text/javascript" src="./scripts/car.example.js"></script>
+    <script type="text/javascript" src="./scripts/main.example.js"></script>
     <!-- Jquery CDN -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"

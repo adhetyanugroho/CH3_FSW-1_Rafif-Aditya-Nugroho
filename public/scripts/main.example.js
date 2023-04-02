@@ -14,4 +14,6 @@ console.log(params);
  * */
 const app = new App();
 
-app.init().then(app.run);
+app.init()
+
+// .then(app.run);

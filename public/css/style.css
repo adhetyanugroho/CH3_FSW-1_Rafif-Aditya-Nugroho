@@ -56,8 +56,9 @@ section {
 }
 /* Hero CSS */
 
-.container-fluid-hero{
+.container-fluid-hero {
   padding-top: 80px;
+  background-color: #f1f3ff;
 }
 .hero-kiri {
   padding-top: 100px;
@@ -79,9 +80,6 @@ section {
 .hero-img {
   right: 0;
   bottom: 0;
-}
-.container-fluid-hero {
-  background-color: #f1f3ff;
 }
 
 .btn-hero {
@@ -268,7 +266,7 @@ section {
 .list-unstyled > li {
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px;  
+  line-height: 20px;
 }
 
 .side {
